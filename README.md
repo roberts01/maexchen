@@ -6,7 +6,7 @@ Written by Robert H. Schuppan
 
 last changed: 02.07.2022
 
-Licensed under CC BY-SA 4.0
+Licensed under the MIT License
 
 Rules can be found (in German) here: https://de.wikipedia.org/wiki/M%C3%A4xchen
 
