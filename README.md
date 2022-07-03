@@ -1,6 +1,6 @@
-# maexchen
+# Maexchen dice game
 
-Interactive dice game Maexchen (in English also known as Mia)
+Interactive dice game Maexchen (in English also known as Mia) for up to 10 players
 
 Written by Robert H. Schuppan
 
