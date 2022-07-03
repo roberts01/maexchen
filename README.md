@@ -2,8 +2,6 @@
 
 Interactive dice game Maexchen (in English also known as Mia) for up to 10 players
 
-Written by Robert H. Schuppan
-
 last changed: 02.07.2022
 
 Licensed under the MIT License
