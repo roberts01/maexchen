@@ -96,9 +96,9 @@ public class Player
         this.real_number = RollDice();
 
         //CHECK: Only higher numbers are allowed, smaller index in array means higher rank
-        if (findInArray(this.real_number, ranks) > findInArray(previous_player.communicated_number, ranks))
+        if (findInArray(this.real_number, ranks) >= findInArray(previous_player.communicated_number, ranks))
         {
-          System.out.println("\n"+name+", you rolled a "+real_number+", which smaller than the "+previous_player.communicated_number+" rolled by "+previous_player.name+". You have to lie about your number or lose a life.");
+          System.out.println("\n"+name+", you rolled a "+real_number+", which is not greater than the "+previous_player.communicated_number+" rolled by "+previous_player.name+". You have to lie about your number or lose a life.");
           System.out.print("Enter 99 to lose a life, or if you want to lie, enter the dice number you would like to tell the other players >");
           
           do
@@ -144,6 +144,7 @@ public class Player
     else
     {
         this.real_number = RollDice();
+      
         System.out.println("\n"+name+", you rolled a "+real_number+". Do you want to lie about your number?");
         System.out.print("Enter 99 to tell the truth, or if you want to lie, enter the dice number you would like to tell the other players >");
         
